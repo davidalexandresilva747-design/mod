@@ -5,7 +5,7 @@
 elements.super_sable = {
     color: "#e6d690",
     behavior: behaviors.POWDER,
-    category: "special", // tu peux changer en "solids" si tu préfères
+    category: "special", // tu peux changer en "solids"
     density: 1600,
     state: "solid",
     tempHigh: 1700,

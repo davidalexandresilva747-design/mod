@@ -1,5 +1,6 @@
 // mod_de_base.js
 
+// Super Sable : devient Wet Sand au contact de l'eau
 elements.super_sable = {
     color: "#e6d690",
     behavior: behaviors.POWDER,
@@ -13,6 +14,7 @@ elements.super_sable = {
     }
 };
 
+// Wet Sand : produit final après contact avec l'eau
 elements.wet_sand = {
     color: "#bfae7a",
     behavior: behaviors.POWDER,

@@ -1,11 +1,11 @@
 // mod_de_base.js
-// Version stable pour Sandboxels — Super Sable
+// Mod stable : Super Sable → Wet Sand
 
-// Super Sable : devient Wet Sand au contact de l'eau
+// Super Sable
 elements.super_sable = {
     color: "#e6d690",
     behavior: behaviors.POWDER,
-    category: "solids", // tu peux changer "special" si tu veux
+    category: "special", // tu peux changer en "solids" si tu préfères
     density: 1600,
     state: "solid",
     tempHigh: 1700,
@@ -15,14 +15,14 @@ elements.super_sable = {
     }
 };
 
-// Wet Sand : résultat après contact avec l'eau
+// Wet Sand (après contact avec l'eau)
 elements.wet_sand = {
     color: "#bfae7a",
     behavior: behaviors.POWDER,
-    category: "solids",
+    category: "special",
     density: 1800,
     state: "solid"
 };
 
-// Message console pour vérifier le chargement
+// Confirmation console
 console.log("Mod 'Super Sable' chargé ✅");
